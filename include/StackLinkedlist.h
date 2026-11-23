@@ -3,6 +3,8 @@
 #include "Node.h"
 
 class StackLinkedlist{
+      
+        
         public: 
         int top;
         int max;
@@ -11,9 +13,13 @@ class StackLinkedlist{
         StackLinkedlist();
        ~ StackLinkedlist();
        void display();
-       int pop ();
        void push(int data);
-     
+       int pop ();
+       int factorial( int n);
+       void bubbleSort();
+       void selectionSort();
+       int binarySearch(int num);
+       Node * getMid(Node *min,Node * max);
 
 };
 
